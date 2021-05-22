@@ -1,0 +1,38 @@
+body {
+    background-color: aqua;
+}
+
+.portfolio .carousel-item img{
+    background-position: center;
+    background-size: cover;
+}
+.portfolio .carousel span.carousel-control-prev-icon,
+.portfolio .carousel span.carousel-control-next-icon {
+    background-color: rgb(233, 201, 19);
+    padding: 15px;
+}
+ol.carousel-indicators li {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: rgb(230, 13, 13);
+}
+.portfolio .carousel-caption .bi {
+    font-size: 20px;
+    color: rgb(247, 225, 34) !important;
+}
+.portfolio .carousel-caption a {
+    text-decoration: underline !important;
+    color: yellow;
+}
+.portfolio .carousel-caption p{
+    color: yellow;
+}
+@media (min-width: 576px) { 
+    .portfolio .carousel.slide {
+        height: 560px;
+    }
+    .portfolio .carousel-item {
+        height: 500px;
+    }
+}
